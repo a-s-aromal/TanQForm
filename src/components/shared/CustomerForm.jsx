@@ -31,7 +31,7 @@ export default function CustomerGPSForm() {
   const cities = district ? districtCityData[district] : [];
 
   return (
-    <div className="container mx-auto px-4 py-6 max-w-4xl">
+    <div className="container mx-auto py-6 max-w-4xl">
       <Card className="w-full">
         <CardHeader>
           <CardTitle className="text-center text-xl sm:text-2xl">
@@ -391,7 +391,7 @@ export default function CustomerGPSForm() {
             </div>
 
             {/* Submit Button */}
-            <Button type="submit" className="w-full cursor-pointer mt-4">
+            <Button type="submit" className="w-full cursor-pointer mt-4 py-5">
               Submit
             </Button>
           </form>
