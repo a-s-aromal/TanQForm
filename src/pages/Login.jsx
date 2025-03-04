@@ -39,7 +39,7 @@ export default function Login() {
             </div>
             <Button
               onClick={() => {
-                navigate("/");
+                navigate("/form");
               }}
               type="submit"
               className="w-full bg-primary cursor-pointer"
